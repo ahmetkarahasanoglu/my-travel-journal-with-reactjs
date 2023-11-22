@@ -2,7 +2,7 @@ export default function Card({obj}) {
     return (
         <div className="card">
             <div className="image-container">
-                <img className="image" src={`/src/assets/${obj.image}`} alt="Photo" />
+                <img className="image" src={`https://ahmetkarahasanoglu.github.io/my-travel-journal-with-reactjs/src/assets/${obj.image}`} alt="Photo" />
             </div>
             <div className="right-column">
                 <div className="country-and-gMaps-div">
