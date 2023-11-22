@@ -19,7 +19,8 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    gap: 8px;
     height: 55px;
     width: 100%;
     background-color: #F55A5A;
@@ -81,7 +82,10 @@ body {
 }
 
 .country {
-    font-size: 10.24px;    
+    font-size: 10.24px;
+    white-space: nowrap;
+    
+
 }
 
 .view-on-gMaps-anchor {
@@ -104,4 +108,20 @@ body {
 .explanation {
     font-size: 10.24px;
     margin-top: 9px;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;    
+}
+
+.location-sign {    
+    width: 20px;
+    height: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    color: red;
 }

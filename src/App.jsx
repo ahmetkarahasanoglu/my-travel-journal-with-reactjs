@@ -15,11 +15,14 @@ function App() {
 
   })
 
-  return (    
+  return (
+    <>
     <div className="container">
       <Header />
       {cards}
     </div>
+    <p className="copyright">Copyright © Ahmet Karahasanoğlu</p>
+    </>
   )
 }
 
